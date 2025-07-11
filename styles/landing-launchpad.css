@@ -242,3 +242,28 @@ textarea {
   border-radius: 10px;
   box-sizing: border-box;
 }
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  color: #8987a1;
+  max-width: 531px;
+  height: 428px;
+}
+.footer-title {
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.footer-description {
+  margin-bottom: 20px;
+}
+.link-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
