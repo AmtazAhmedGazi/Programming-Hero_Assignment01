@@ -183,3 +183,26 @@ main {
   color: rgba(0, 0, 0, 0.5);
   width: 367px;
 }
+
+/* Start Section */
+.start {
+  margin-bottom: 93px;
+  background-color: #ffffff;
+}
+.start-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding-top: 71px;
+}
+.start-description {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.start-btn {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.start-img {
+  border-radius: 48px;
+  margin-bottom: 71px;
+}
