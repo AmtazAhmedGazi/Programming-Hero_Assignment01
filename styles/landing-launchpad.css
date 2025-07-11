@@ -76,3 +76,35 @@ nav li {
   font-weight: 700;
   margin-bottom: 37px;
 }
+
+/* main  */
+main {
+  padding-top: 116px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 14px;
+}
+/* Section Action */
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 116px;
+}
+
+.action-details {
+  width: 517px;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+}
+.action-subtitle {
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+#action-img {
+  border-radius: 48px;
+}
