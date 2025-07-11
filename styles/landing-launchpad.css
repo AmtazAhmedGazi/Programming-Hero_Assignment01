@@ -43,7 +43,10 @@
   border-radius: 10px;
   border: none;
 }
-
+button:hover {
+  background-color: #b4ce20;
+  color: #000;
+}
 /* header */
 header {
   background-image: url("../images/Hero-bg.png");
