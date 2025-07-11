@@ -245,7 +245,10 @@ textarea {
   border-radius: 10px;
   box-sizing: border-box;
 }
-
+input[type="submit"]:hover {
+  background-color: #b4ce20;
+  color: #000;
+}
 /* footer */
 footer {
   display: flex;
