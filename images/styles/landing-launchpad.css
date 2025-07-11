@@ -1,0 +1,144 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+/* shared style */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondary-bg {
+  background-color: #f5f8ff;
+}
+
+.text-primary {
+  color: #4e47ff;
+}
+
+.text-secondary {
+  color: #252432;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.primary-btn {
+  padding: 12px 36px;
+  background-color: #4e47ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background-color: #975860;
+  color: #000;
+}
+
+/* header */
+header {
+  background-image: url("../images/Hero-bg.png");
+  height: 698px;
+}
+
+/* nav styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 150px;
+  padding-top: 50px;
+}
+
+nav li {
+  list-style: none;
+}
+
+.nav-title {
+  font-size: 34px;
+  font-weight: 900;
+}
+
+/* banner styles */
+.banner {
+  max-width: 905px;
+  margin: 155px auto;
+}
+.banner-content {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+
+/* main  */
+main {
+  padding-top: 116px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 14px;
+}
+/* Section Action */
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 116px;
+}
+
+.action-details {
+  width: 517px;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+}
+.action-subtitle {
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin: 23px 0;
+}
+
+#action-img {
+  border-radius: 48px;
+}
+
+/* Section Productive Users Data */
+.productive-users {
+  margin-bottom: 137px;
+  padding: 50px 142px;
+  border-radius: 24px;
+  background-color: rgba(78, 71, 255, 0.1);
+}
+.section-productive-user-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.data-container {
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+}
+.data {
+  font-size: 80px;
+  font-weight: 700;
+}
+.data-subtitle {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
