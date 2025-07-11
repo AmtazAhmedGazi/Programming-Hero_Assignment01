@@ -1,3 +1,8 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
 /* shared style */
 .inter-normal {
   font-family: "Inter", sans-serif;
@@ -39,10 +44,6 @@
   border: none;
 }
 
-body {
-  margin: 0 0;
-}
-
 /* header */
 header {
   background-image: url("../images/Hero-bg.png");
@@ -55,6 +56,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0px 150px;
+  padding-top: 50px;
 }
 
 nav li {
@@ -103,8 +105,36 @@ main {
 .action-subtitle {
   font-size: 24px;
   color: rgba(37, 36, 50, 0.5);
+  margin: 23px 0;
 }
 
 #action-img {
   border-radius: 48px;
+}
+
+/* Section Productive Users Data */
+.productive-users {
+  margin-bottom: 137px;
+  padding: 50px 142px;
+  border-radius: 24px;
+  background-color: rgba(78, 71, 255, 0.1);
+}
+.section-productive-user-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+.data-container {
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+}
+.data-count {
+  font-size: 80px;
+  font-weight: 700;
+}
+.data-title {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
