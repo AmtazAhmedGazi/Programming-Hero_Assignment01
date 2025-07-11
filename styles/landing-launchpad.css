@@ -88,6 +88,7 @@ main {
   padding-left: 150px;
   padding-right: 150px;
   padding-bottom: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 /* Section Action */
 .action {
@@ -255,7 +256,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   color: #8987a1;
   max-width: 531px;
