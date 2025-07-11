@@ -191,6 +191,7 @@ main {
 .start {
   margin-bottom: 93px;
   background-color: #ffffff;
+  border-radius: 14px;
 }
 .start-title {
   font-size: 50px;
@@ -212,7 +213,7 @@ main {
 /*get-in-touch Section */
 .get-in-touch {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 115px;
   padding: 71px 0px;
@@ -272,4 +273,11 @@ footer {
   display: flex;
   justify-content: center;
   gap: 48px;
+}
+footer li {
+  list-style: none;
+}
+footer li a {
+  text-decoration: none;
+  color: #8987a1;
 }
